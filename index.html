@@ -35,13 +35,6 @@
        background-color: rgb(0, 83, 159) ;
      }
      
-     ul {
-       color: rgb(200, 162, 200) ;
-     }
-     
-     ul {
-       background-color: rgb(0, 0, 128) ;
-     }
      
      h4 {
        color: rgb(31, 97, 141) ;
@@ -181,6 +174,39 @@
   background-color: #555;
 
 }
+   
+  
+   
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
    </style>
    </head>
 
@@ -217,22 +243,22 @@
   <p class="deteriorating"><strong>Climate change.<br> I am sure that you have heard of this phrase <em>numerous times.</em> Its poularity is growing day by day and <em>little to none action</em> is being taken place to prevent the harm of <em>our planet.</em><br> I would like for you to imagine this, people <em>stuck in their homes</em> because of the scorching heat, pollution laying <em>astray on streets,</em> humans and animals alike <em>not being able to get the nourishment they require</em> because of the shortages in clean water.<br> I know that these images are <em>not</em> pretty sights.<br>
     This might be the fate and state of future generations' daily lives.<br>  As a matter of fact, these are only a few of the difficulties approaching Earth.<br> In the bottom bullet list, I have noted down more problems which are interlinked with climate change.</strong></p>
   
-<ul>
+<ol>
   <li>Droughts</li>
   <li>Storms</li>
   <li>Heat Waves</li>
   <li>Rising Sea Levels</li>
   <li>Warming Oceans</li>
-  </ul>
+  </ol>
   
   <p class="deteriorating"><strong>Aside from the list above, <em>pollution</em> is a whole another case!<br> Not only does Earth get <em>attacked</em> by Climate change, <em>pollution also exists</em>, and we need to halt this <em>damage</em> which is done to Earth. <br>It surprised me a lot when I realised that <em>the same people</em> that depend on Earth to live are also <em>killing Earth</em>.<br> This <em>does not</em> benefit anyone!<br> 
     The three main types of pollution are listed underneath:</strong></p>
     
-  <ul>
+  <ol>
     <li>Land Pollution- Trash <strong>littering</strong> the land which leads to a <strong>loss</strong> of fertile land for agriculture.</li>
     <li>Water Pollution- <strong>Trash</strong> in water which sometimes results into sea animals <strong>eating</strong> it and falling <strong>sick or dying.</strong></li>
     <li>Air Pollution- <strong>Harmful</strong> gases mixing with the clean gases in air which can cause <strong>respiratory damages.</strong></li>
-  </ul>
+  </ol>
      <br>
      <h2>Here is a video explaining the impacts of Climate change.</h2>
      <iframe width="560" height="315" src="https://www.youtube.com/embed/SDRxfuEvqGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -365,6 +391,17 @@ function topFunction() {
 }
 
 </script>
+
+        <div class="header">
+  <h2>Scroll Down</h2>
+  <p>Scroll down to see the sticky effect.</p>
+</div>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
 
                
   </body>
